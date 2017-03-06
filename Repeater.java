@@ -22,7 +22,7 @@ public class Repeater {
                         out.println(word2);
                         out.println('%');
                 }
-                out.println(word2 + word);
+                out.print(word2 + word);
                 out.close();
                 }
         }
