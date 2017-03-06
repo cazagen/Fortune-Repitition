@@ -15,13 +15,14 @@ public class Repeater {
             //System.out.println('%');
             out.println(word);
             out.println('%');
-                for(int i = 0; i<n;i++){
+                for(int i = 2; i<n;i++){
                         word2 = word2 + word;
                         //System.out.println(word2);
                         //System.out.println('%');
                         out.println(word2);
                         out.println('%');
                 }
+                out.println(word2 + word);
                 out.close();
                 }
         }
